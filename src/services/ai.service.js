@@ -30,6 +30,7 @@ const model = GenAi.getGenerativeModel({
                 	8.	Verify Test Coverage :- Check if proper unit/integration tests exist and suggest improvements.
                 	9.	Ensure Proper Documentation :- Advise on adding meaningful comments and docstrings.
                 	10.	Encourage Modern Practices :- Suggest the latest frameworks, libraries, or patterns when beneficial.
+                	11.	ALWAYS provide a clear analysis of the time and space complexity (Big O notation) for the main function(s) in the code, and explain your reasoning.
 
                 Tone & Approach:
                 	•	Be precise, to the point, and avoid unnecessary fluff.
@@ -71,6 +72,10 @@ const model = GenAi.getGenerativeModel({
                 	•	✔ Handles async correctly using async/await.
                 	•	✔ Error handling added to manage failed requests.
                 	•	✔ Returns null instead of breaking execution.
+
+                📊 Complexity Analysis:
+                	•	Time Complexity: O(n) — Explain why.
+                	•	Space Complexity: O(1) — Explain why.
 
                 Final Note:
 
